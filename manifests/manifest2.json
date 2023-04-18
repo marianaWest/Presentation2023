@@ -1,0 +1,116 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://marianaWest.github.io/Presentation2023/manifests/manifest2.json",
+  "@type" : "sc:Manifest",
+  "label" : "Mariana's Manifest",
+  "metadata" : [ {
+    "Author" : "Mariana Westphalen",
+    "Library" : "NYPL"
+  } ],
+  "description" : [ {
+    "@value" : "This is a collection of woodcuts by Franz Keller",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "attribution" : "Copyright by Franz Keller",
+  "viewingHint" : "paged",
+  "sequences" : [ {
+    "@id" : "http://fa02061a-1fa6-432d-aae0-2bcf95888e17",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://bb92a4e4-263d-4dad-bff1-6466671a2cc0",
+      "@type" : "sc:Canvas",
+      "label" : "Preparing food",
+      "height" : 3264,
+      "width" : 2448,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://144d3fbe-abe0-4b31-b0c3-3138ae0050ad",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/dsc-00720/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/dsc-00720",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 3264,
+          "width" : 2448
+        },
+        "on" : "http://bb92a4e4-263d-4dad-bff1-6466671a2cc0"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://47a84999-1fbb-47ee-ac4d-00ce497fc74f",
+      "@type" : "sc:Canvas",
+      "label" : "Mameluco",
+      "height" : 3264,
+      "width" : 2448,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://c126c8d3-89ff-4681-94e4-2ac636bad5fe",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/dsc-00428/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/dsc-00428",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 3264,
+          "width" : 2448
+        },
+        "on" : "http://47a84999-1fbb-47ee-ac4d-00ce497fc74f"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://203ced9a-5750-4464-9ddc-2d5119669e9e",
+      "@type" : "sc:Canvas",
+      "label" : "Level0",
+      "height" : 3264,
+      "width" : 2448,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://a435a0c7-73a2-430d-bb16-93449a45f703",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://marianawest.github.io/IIIFWorkshop/images/DSC00720/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://marianawest.github.io/IIIFWorkshop/images/DSC00720",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 3264,
+          "width" : 2448
+        },
+        "on" : "http://203ced9a-5750-4464-9ddc-2d5119669e9e"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ {
+    "@id" : "http://example.org/iiif/book1/range/top",
+    "@type" : "sc:Range",
+    "label" : "Table of Content",
+    "viewingHint" : "top",
+    "ranges" : [ "http://example.org/iiif/book1/range/intro" ]
+  }, {
+    "@id" : "http://example.org/iiif/book1/range/intro",
+    "@type" : "sc:Range",
+    "label" : "Introduction",
+    "canvases" : "http://bb92a4e4-263d-4dad-bff1-6466671a2cc0"
+  } ]
+}
