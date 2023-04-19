@@ -3,6 +3,11 @@
   "@id" : "https://marianaWest.github.io/Presentation2023/manifests/manifest2.json",
   "@type" : "sc:Manifest",
   "label" : "Mariana's Manifest",
+  "service" : {
+    "profile" : "http://iiif.io/api/search/0/search",
+    "@id" : "https://dev.gdmrdigital.com/search-api/1245635613/97693233/ace82734ff7f97e028deb84c2883307f/search",
+    "@context" : "http://iiif.io/api/search/0/context.json"
+  },
   "metadata" : [ {
     "Author" : "Mariana Westphalen",
     "Library" : "NYPL"
@@ -45,6 +50,11 @@
           "width" : 2448
         },
         "on" : "http://bb92a4e4-263d-4dad-bff1-6466671a2cc0"
+      } ],
+      "otherContent" : [ {
+        "@id" : "https://marianawest.github.io/Presentation2023/annotations/0f71f4b013542f27bc0f7dde9ce44115.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "My fantastic annotations"
       } ],
       "related" : ""
     }, {
