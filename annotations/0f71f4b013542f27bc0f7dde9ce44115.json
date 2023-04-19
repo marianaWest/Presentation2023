@@ -1,0 +1,43 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Amazon",
+      "@type" : "oa:Tag",
+      "chars" : "Amazon"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "Mojo woman preparing breakfast on the margin of the Madeira River",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Mojo woman preparing breakfast on the margin of the Madeira River</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/97693233",
+    "motivation" : [ "oa:tagging", "oa:commenting" ],
+    "dcterms:created" : "2023-04-19T17:40:48",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1681926048312",
+    "dcterms:modified" : "2023-04-19T17:40:48",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://marianaWest.github.io/Presentation2023/manifests/manifest2.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=320,324,1276,405"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M319.6,324.4h637.8v0h637.8v202.6v202.6h-637.8h-637.8v-202.6z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_63ae72cb-aec3-4bcd-b670-6ae40a35787e\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://bb92a4e4-263d-4dad-bff1-6466671a2cc0"
+    } ]
+  } ],
+  "@id" : "https://marianaWest.github.io/Presentation2023/annotations/0f71f4b013542f27bc0f7dde9ce44115.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
