@@ -1,0 +1,7 @@
+{
+  "@type" : "sc:Layer",
+  "otherContent" : [ "https://marianaWest.github.io/Presentation2023/annotations/0f71f4b013542f27bc0f7dde9ce44115.json" ],
+  "@id" : "https://marianaWest.github.io/Presentation2023/annotations/collection.json",
+  "label" : "All annotations loaded in marianaWest/Presentation2023 project",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
