@@ -1,0 +1,39 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "a pleasant lunch in the forest",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>a pleasant lunch in the forest</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/97693233",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2023-04-20T21:30:17",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1682026217963",
+    "dcterms:modified" : "2023-04-20T21:30:17",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://marianaWest.github.io/Presentation2023/manifests/manifest3.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=1062,696,1776,1417"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1061.76364,695.52882h888.2332v0h888.2332v708.49199v708.49199h-888.2332h-888.2332v-708.49199z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_83cf7989-845e-4af2-98a7-29d1b3bbca2f\" fill-opacity=\"0\" fill=\"#01bfff\" fill-rule=\"nonzero\" stroke=\"#01bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://252cb712-2fd9-42ef-9b1b-8398b255e7b0"
+    } ]
+  } ],
+  "@id" : "https://marianaWest.github.io/Presentation2023/annotations/5.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
