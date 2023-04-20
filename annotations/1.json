@@ -1,0 +1,187 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "a servant (?) cooking",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>a servant (?) cooking</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/97693233",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2023-04-20T21:24:22",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1682025862301",
+    "dcterms:modified" : "2023-04-20T21:24:22",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://marianaWest.github.io/Presentation2023/manifests/manifest3.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=2459,1512,323,306"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M2459.00928,1511.7269h161.6198v0h161.6198v153.01517v153.01517h-161.6198h-161.6198v-153.01517z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_d9542f5a-7ffb-4b4c-baba-48f6cbec5add\" fill-opacity=\"0\" fill=\"#01bfff\" fill-rule=\"nonzero\" stroke=\"#01bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://8fb45623-128e-4f20-b95d-e817e047cc47"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "domesticity",
+      "@type" : "oa:Tag",
+      "chars" : "domesticity"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "the turtle, an exotic domestic animal",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>the turtle, an exotic domestic animal</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/97693233",
+    "motivation" : [ "oa:tagging", "oa:commenting" ],
+    "dcterms:created" : "2023-04-20T21:26:32",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1682025992330",
+    "dcterms:modified" : "2023-04-20T21:26:32",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://marianaWest.github.io/Presentation2023/manifests/manifest3.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=2463,1829,302,228"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M2462.83356,1829.14222h151.10303v0h151.10303v113.81629v113.81629h-151.10303h-151.10303v-113.81629z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_5ef912f3-1c0d-4cca-86d2-919e0ed24887\" fill-opacity=\"0\" fill=\"#01bfff\" fill-rule=\"nonzero\" stroke=\"#01bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://8fb45623-128e-4f20-b95d-e817e047cc47"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "domesticity",
+      "@type" : "oa:Tag",
+      "chars" : "domesticity"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "the dog, another sign of domesticity",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>the dog, another sign of domesticity</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/97693233",
+    "motivation" : [ "oa:tagging", "oa:commenting" ],
+    "dcterms:created" : "2023-04-20T21:25:44",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1682025944496",
+    "dcterms:modified" : "2023-04-20T21:25:44",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://marianaWest.github.io/Presentation2023/manifests/manifest3.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=1579,1854,365,210"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1579.42464,1854.00005h182.65335v0h182.65335v105.21166v105.21166h-182.65335h-182.65335v-105.21166z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_cbc089de-3250-4091-9441-12d9d806f731\" fill-opacity=\"0\" fill=\"#01bfff\" fill-rule=\"nonzero\" stroke=\"#01bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://8fb45623-128e-4f20-b95d-e817e047cc47"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "domesticity",
+      "@type" : "oa:Tag",
+      "chars" : "domesticity"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "Just chilling, smoking on the hammock.",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Just chilling, smoking on the hammock.</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/97693233",
+    "motivation" : [ "oa:tagging", "oa:commenting" ],
+    "dcterms:created" : "2023-04-20T21:25:23",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1682025923788",
+    "dcterms:modified" : "2023-04-20T21:25:23",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://marianaWest.github.io/Presentation2023/manifests/manifest3.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=1966,1535,465,440"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1965.67703,1534.67259h232.369v0h232.369v219.94009v219.94009h-232.369h-232.369v-219.94009z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_c7452911-fa09-4334-9f89-f73ad88372c2\" fill-opacity=\"0\" fill=\"#01bfff\" fill-rule=\"nonzero\" stroke=\"#01bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://8fb45623-128e-4f20-b95d-e817e047cc47"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "domesticity",
+      "@type" : "oa:Tag",
+      "chars" : "domesticity"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "the other hammock waiting for the husband",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>the other hammock waiting for the husband</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/97693233",
+    "motivation" : [ "oa:tagging", "oa:commenting" ],
+    "dcterms:created" : "2023-04-20T21:26:10",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1682025970744",
+    "dcterms:modified" : "2023-04-20T21:26:10",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://marianaWest.github.io/Presentation2023/manifests/manifest3.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=1052,1242,478,792"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1051.67386,1242.11509h239.06149v0h239.06149v395.85702v395.85702h-239.06149h-239.06149v-395.85702z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_64506921-302a-47be-984a-e62722e725b7\" fill-opacity=\"0\" fill=\"#01bfff\" fill-rule=\"nonzero\" stroke=\"#01bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://8fb45623-128e-4f20-b95d-e817e047cc47"
+    } ]
+  } ],
+  "@id" : "https://marianaWest.github.io/Presentation2023/annotations/1.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
