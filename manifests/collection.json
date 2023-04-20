@@ -9,5 +9,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://marianaWest.github.io/Presentation2023/manifests/manifest2.json",
     "label" : "Mariana's Manifest"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://marianaWest.github.io/Presentation2023/manifests/manifest3.json",
+    "label" : "IIIF Workshop Project"
   } ]
 }
