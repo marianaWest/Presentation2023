@@ -1,0 +1,160 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://marianaWest.github.io/Presentation2023/manifests/manifest3.json",
+  "@type" : "sc:Manifest",
+  "label" : "IIIF Workshop Project",
+  "metadata" : [ {
+    "label" : "Author",
+    "value" : "Mariana Westphalen"
+  }, {
+    "label" : "Library",
+    "value" : "NYPL"
+  } ],
+  "description" : [ {
+    "@value" : "Expedition to the Madeira Valley",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "attribution" : "Woodcuts by Franz Keller-Leuzinger",
+  "viewingHint" : "paged",
+  "sequences" : [ {
+    "@id" : "http://86db484c-cc16-474f-91f3-d407d69fc93a",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://8fb45623-128e-4f20-b95d-e817e047cc47",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 2448,
+      "width" : 3264,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://6d04a7c4-7283-4325-ab2f-eb1cdc9c986a",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/dsc-00776/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/dsc-00776",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 2448,
+          "width" : 3264
+        },
+        "on" : "http://8fb45623-128e-4f20-b95d-e817e047cc47"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://c5a363fc-3371-4dc2-bc79-e603fb85158e",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 3264,
+      "width" : 2448,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://11fffdad-e2ef-4f84-acd9-9ecbd8483dfd",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/dsc-00770/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/dsc-00770",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 3264,
+          "width" : 2448
+        },
+        "on" : "http://c5a363fc-3371-4dc2-bc79-e603fb85158e"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://51c18a77-a046-406b-a0e3-28643cb2b7be",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 3264,
+      "width" : 2448,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://38abf1bf-e1f5-447b-8f2d-79f722d8bad9",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/dsc-00757/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/dsc-00757",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 3264,
+          "width" : 2448
+        },
+        "on" : "http://51c18a77-a046-406b-a0e3-28643cb2b7be"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://cfa40ea1-899d-47bc-9fa3-235f40fb93b7",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 3264,
+      "width" : 2448,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://1a26913f-c156-4d8c-a7de-7c0c4e083810",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/dsc-00719/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/dsc-00719",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 3264,
+          "width" : 2448
+        },
+        "on" : "http://cfa40ea1-899d-47bc-9fa3-235f40fb93b7"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://252cb712-2fd9-42ef-9b1b-8398b255e7b0",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 2448,
+      "width" : 3264,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://20efd793-a77b-424d-b856-9c4083713914",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/dsc-00709/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/dsc-00709",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 2448,
+          "width" : 3264
+        },
+        "on" : "http://252cb712-2fd9-42ef-9b1b-8398b255e7b0"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
